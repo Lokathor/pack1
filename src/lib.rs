@@ -100,8 +100,11 @@ macro_rules! float_fmt {
 
 mod _f32;
 mod _f64;
+mod _i16;
+mod _i32;
+mod _i64;
 mod _u16;
 mod _u32;
 mod _u64;
 
-pub use self::{_f32::*, _f64::*, _u16::*, _u32::*, _u64::*};
+pub use self::{_f32::*, _f64::*, _i16::*, _i32::*, _i64::*, _u16::*, _u32::*, _u64::*};
