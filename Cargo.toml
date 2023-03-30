@@ -1,0 +1,11 @@
+[package]
+name = "pack1"
+description = "Byte array newtypes for different primitive types."
+repository = "https://github.com/Lokathor/pack1"
+version = "0.1.0"
+edition = "2021"
+license = "Zlib OR Apache-2.0 OR MIT"
+
+[dependencies]
+# if enabled, bytemuck::Zeroable and bytemuck::Pod will be derived on the types.
+bytemuck = { version = "1.13.1", features = ["derive"], optional = true }

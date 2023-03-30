@@ -1,2 +1,5 @@
+# [Docs.rs](https://docs.rs/pack1)
+
 # pack1
-Byte array newtypes of various primitive types.
+
+Byte array newtypes for different primitive types.
