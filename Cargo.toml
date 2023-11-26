@@ -2,7 +2,7 @@
 name = "pack1"
 description = "Byte array newtypes for different primitive types."
 repository = "https://github.com/Lokathor/pack1"
-version = "0.1.1"
+version = "1.0.0"
 edition = "2021"
 license = "Zlib OR Apache-2.0 OR MIT"
 
