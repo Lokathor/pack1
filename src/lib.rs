@@ -8,8 +8,9 @@
 //!
 //! Because they're newtypes of byte arrays, they always have alignment 1.
 //!
-//! Each type has `new` and `get` functions (`const fn` when possible), as well
-//! as [`From`] impls.
+//! Each type has `new` and `get` functions, as well as [`From`] impls. The
+//! `new` and `get` functions are `const fn` with int types, but not yet with
+//! floating types.
 //!
 //! The intended usage of this crate is that you can use these these types in a
 //! `repr(C)` struct, along with manual padding, and then have each field at the
